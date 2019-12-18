@@ -11,11 +11,11 @@ enabledWorlds:
 ```
 
 ## Commands
-`/nerfphantoms reload`: Reload options from the configuration file
+`/fixphantoms reload`: Reload options from the configuration file
 
 ## Permissions
 ``` yaml
-nerfphantoms.reload:
+fp.reload:
   description: Reload the plugin config
   default: op
 ```
