@@ -1,0 +1,15 @@
+name: FixPhantoms
+version: 1.0.0
+main: com.lordcre.fixphantoms.Main
+prefix: FixPhantoms
+authors: [Lordcre_]
+description: Prevent phantoms from spawning in mushroom biomes.
+commands:
+   preventphantoms:
+      usage: /fixphantoms <reload>
+      aliases: [fp, phantoms]
+      permission-message: You don't have permission.
+permissions:
+   fp.reload:
+      description: Reload the plugin config
+      default: op
